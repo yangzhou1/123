@@ -1,0 +1,5756 @@
+-------------- Clock 0 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0004 instruction=0x2008_0000
+  fields.opcode = 8
+  fields.rs     = 0
+  fields.rt     = 8
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_0000
+  fields.imm32  = 0x0000_0000
+  fields.address  = 0x0008_0000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1020_0000
+  branchAddr = 0x1234_0004
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 8
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0808_0808
+  ---
+  ID_EX.ALUsrc      = 1
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 0
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 0
+
+-------------- Clock 1 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0008 instruction=0x2009_000a
+  fields.opcode = 8
+  fields.rs     = 0
+  fields.rt     = 9
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 10
+  fields.imm16  = 0x0000_000a
+  fields.imm32  = 0x0000_000a
+  fields.address  = 0x0009_000a
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1024_0028
+  branchAddr = 0x1234_0030
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 9
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0909_0909
+  ---
+  ID_EX.ALUsrc      = 1
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 8
+  EX_MEM.rtVal = 0x0808_0808
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 8
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 0
+
+-------------- Clock 2 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_000c instruction=0x200a_0005
+  fields.opcode = 8
+  fields.rs     = 0
+  fields.rt     = 10
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 5
+  fields.imm16  = 0x0000_0005
+  fields.imm32  = 0x0000_0005
+  fields.address  = 0x000a_0005
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1028_0014
+  branchAddr = 0x1234_0020
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 10
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0a0a_0a0a
+  ---
+  ID_EX.ALUsrc      = 1
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_000a
+  ---
+  EX_MEM.rt = 9
+  EX_MEM.rtVal = 0x0909_0909
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 9
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_000a
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 8
+  MEM_WB.regWrite = 1
+
+-------------- Clock 3 ---------------
+WB phase:
+  REGISTER 8 CHANGED.  Was: 0x0808_0808 Now: 0x0000_0000
+  A total of 1 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0010 instruction=0x200c_0003
+  fields.opcode = 8
+  fields.rs     = 0
+  fields.rt     = 12
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 3
+  fields.imm16  = 0x0000_0003
+  fields.imm32  = 0x0000_0003
+  fields.address  = 0x000c_0003
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1030_000c
+  branchAddr = 0x1234_001c
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 12
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0c0c_0c0c
+  ---
+  ID_EX.ALUsrc      = 1
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0005
+  ---
+  EX_MEM.rt = 10
+  EX_MEM.rtVal = 0x0a0a_0a0a
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 10
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0005
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_000a
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 9
+  MEM_WB.regWrite = 1
+
+-------------- Clock 4 ---------------
+WB phase:
+  REGISTER 9 CHANGED.  Was: 0x0909_0909 Now: 0x0000_000a
+  A total of 1 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0014 instruction=0x010a_582a
+  fields.opcode = 0
+  fields.rs     = 8
+  fields.rt     = 10
+  fields.rd     = 11
+  fields.shamt  = 0
+  fields.funct  = 42
+  fields.imm16  = 0x0000_582a
+  fields.imm32  = 0x0000_582a
+  fields.address  = 0x010a_582a
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1429_60a8
+  branchAddr = 0x1235_60bc
+  ---
+  ID_EX.rs = 8
+  ID_EX.rt = 10
+  ID_EX.rd = 11
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0a0a_0a0a
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 1
+  ID_EX.ALU.op      = 3
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0003
+  ---
+  EX_MEM.rt = 12
+  EX_MEM.rtVal = 0x0c0c_0c0c
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 12
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0003
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0005
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 10
+  MEM_WB.regWrite = 1
+
+-------------- Clock 5 ---------------
+WB phase:
+  REGISTER 10 CHANGED.  Was: 0x0a0a_0a0a Now: 0x0000_0005
+  A total of 1 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0018 instruction=0x0000_0000
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_0000
+  fields.imm32  = 0x0000_0000
+  fields.address  = 0x0000_0000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1000_0000
+  branchAddr = 0x1234_0018
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 4
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0005
+  ---
+  EX_MEM.rt = 10
+  EX_MEM.rtVal = 0x0a0a_0a0a
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 11
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0001
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0003
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 12
+  MEM_WB.regWrite = 1
+
+-------------- Clock 6 ---------------
+WB phase:
+  REGISTER 12 CHANGED.  Was: 0x0c0c_0c0c Now: 0x0000_0003
+  A total of 1 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_001c instruction=0x0000_0000
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_0000
+  fields.imm32  = 0x0000_0000
+  fields.address  = 0x0000_0000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1000_0000
+  branchAddr = 0x1234_001c
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 4
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0001
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 11
+  MEM_WB.regWrite = 1
+
+-------------- Clock 7 ---------------
+WB phase:
+  REGISTER 11 CHANGED.  Was: 0x0b0b_0b0b Now: 0x0000_0001
+  A total of 1 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0020 instruction=0x1160_000d
+  fields.opcode = 4
+  fields.rs     = 11
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 13
+  fields.imm16  = 0x0000_000d
+  fields.imm32  = 0x0000_000d
+  fields.address  = 0x0160_000d
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1580_0034
+  branchAddr = 0x1234_0054
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 1
+
+-------------- Clock 8 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0024 instruction=0x012c_4820
+  fields.opcode = 0
+  fields.rs     = 9
+  fields.rt     = 12
+  fields.rd     = 9
+  fields.shamt  = 0
+  fields.funct  = 32
+  fields.imm16  = 0x0000_4820
+  fields.imm32  = 0x0000_4820
+  fields.address  = 0x012c_4820
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x14b1_2080
+  branchAddr = 0x1235_20a4
+  ---
+  ID_EX.rs = 9
+  ID_EX.rt = 12
+  ID_EX.rd = 9
+  ---
+  ID_EX.rsVal = 0x0000_000a
+  ID_EX.rtVal = 0x0000_0003
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 0
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 1
+
+-------------- Clock 9 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0028 instruction=0x2002_0001
+  fields.opcode = 8
+  fields.rs     = 0
+  fields.rt     = 2
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 1
+  fields.imm16  = 0x0000_0001
+  fields.imm32  = 0x0000_0001
+  fields.address  = 0x0002_0001
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1008_0004
+  branchAddr = 0x1234_002c
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 2
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0202_0202
+  ---
+  ID_EX.ALUsrc      = 1
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_000a
+  ALU input2 = 0x0000_0003
+  ---
+  EX_MEM.rt = 12
+  EX_MEM.rtVal = 0x0000_0003
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 9
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_000d
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 0
+
+-------------- Clock 10 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_002c instruction=0x0120_2020
+  fields.opcode = 0
+  fields.rs     = 9
+  fields.rt     = 0
+  fields.rd     = 4
+  fields.shamt  = 0
+  fields.funct  = 32
+  fields.imm16  = 0x0000_2020
+  fields.imm32  = 0x0000_2020
+  fields.address  = 0x0120_2020
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1480_8080
+  branchAddr = 0x1234_80ac
+  ---
+  ID_EX.rs = 9
+  ID_EX.rt = 0
+  ID_EX.rd = 4
+  ---
+  ID_EX.rsVal = 0x0000_000a
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0001
+  ---
+  EX_MEM.rt = 2
+  EX_MEM.rtVal = 0x0202_0202
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 2
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0001
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_000d
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 9
+  MEM_WB.regWrite = 1
+
+-------------- Clock 11 ---------------
+WB phase:
+  REGISTER 9 CHANGED.  Was: 0x0000_000a Now: 0x0000_000d
+  A total of 1 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0030 instruction=0x0000_0000
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_0000
+  fields.imm32  = 0x0000_0000
+  fields.address  = 0x0000_0000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1000_0000
+  branchAddr = 0x1234_0030
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 4
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_000d
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 4
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_000d
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0001
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 2
+  MEM_WB.regWrite = 1
+
+-------------- Clock 12 ---------------
+WB phase:
+  REGISTER 2 CHANGED.  Was: 0x0202_0202 Now: 0x0000_0001
+  A total of 1 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0034 instruction=0x0000_0000
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_0000
+  fields.imm32  = 0x0000_0000
+  fields.address  = 0x0000_0000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1000_0000
+  branchAddr = 0x1234_0034
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 4
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_000d
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 4
+  MEM_WB.regWrite = 1
+
+-------------- Clock 13 ---------------
+WB phase:
+  REGISTER 4 CHANGED.  Was: 0x0404_0404 Now: 0x0000_000d
+  A total of 1 registers were changed.
+
+ID phase:
+13EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 1
+
+-------------- Clock 14 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_003c instruction=0x2002_000b
+  fields.opcode = 8
+  fields.rs     = 0
+  fields.rt     = 2
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 11
+  fields.imm16  = 0x0000_000b
+  fields.imm32  = 0x0000_000b
+  fields.address  = 0x0002_000b
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1008_002c
+  branchAddr = 0x1234_0068
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 2
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0001
+  ---
+  ID_EX.ALUsrc      = 1
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 0
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 1
+
+-------------- Clock 15 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0040 instruction=0x2004_000a
+  fields.opcode = 8
+  fields.rs     = 0
+  fields.rt     = 4
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 10
+  fields.imm16  = 0x0000_000a
+  fields.imm32  = 0x0000_000a
+  fields.address  = 0x0004_000a
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1010_0028
+  branchAddr = 0x1234_0068
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 4
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_000d
+  ---
+  ID_EX.ALUsrc      = 1
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_000b
+  ---
+  EX_MEM.rt = 2
+  EX_MEM.rtVal = 0x0000_0001
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 2
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_000b
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 0
+
+-------------- Clock 16 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0044 instruction=0x0000_0000
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_0000
+  fields.imm32  = 0x0000_0000
+  fields.address  = 0x0000_0000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1000_0000
+  branchAddr = 0x1234_0044
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 4
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_000a
+  ---
+  EX_MEM.rt = 4
+  EX_MEM.rtVal = 0x0000_000d
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 4
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_000a
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_000b
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 2
+  MEM_WB.regWrite = 1
+
+-------------- Clock 17 ---------------
+WB phase:
+  REGISTER 2 CHANGED.  Was: 0x0000_0001 Now: 0x0000_000b
+  A total of 1 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0048 instruction=0x0000_0000
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_0000
+  fields.imm32  = 0x0000_0000
+  fields.address  = 0x0000_0000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1000_0000
+  branchAddr = 0x1234_0048
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 4
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_000a
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 4
+  MEM_WB.regWrite = 1
+
+-------------- Clock 18 ---------------
+WB phase:
+  REGISTER 4 CHANGED.  Was: 0x0000_000d Now: 0x0000_000a
+  A total of 1 registers were changed.
+
+ID phase:
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 1
+
+-------------- Clock 19 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0050 instruction=0x2108_0001
+  fields.opcode = 8
+  fields.rs     = 8
+  fields.rt     = 8
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 1
+  fields.imm16  = 0x0000_0001
+  fields.imm32  = 0x0000_0001
+  fields.address  = 0x0108_0001
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1420_0004
+  branchAddr = 0x1234_0054
+  ---
+  ID_EX.rs = 8
+  ID_EX.rt = 8
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 1
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 0
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 1
+
+-------------- Clock 20 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0054 instruction=0x088d_0004
+  fields.opcode = 2
+  fields.rs     = 4
+  fields.rt     = 13
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 4
+  fields.imm16  = 0x0000_0004
+  fields.imm32  = 0x0000_0004
+  fields.address  = 0x008d_0004
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 2
+  jumpAddr   = 0x1234_0010
+  branchAddr = 0x1234_0064
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0001
+  ---
+  EX_MEM.rt = 8
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 8
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0001
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 0
+
+-------------- Clock 21 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0014 instruction=0x010a_582a
+  fields.opcode = 0
+  fields.rs     = 8
+  fields.rt     = 10
+  fields.rd     = 11
+  fields.shamt  = 0
+  fields.funct  = 42
+  fields.imm16  = 0x0000_582a
+  fields.imm32  = 0x0000_582a
+  fields.address  = 0x010a_582a
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1429_60a8
+  branchAddr = 0x1235_60bc
+  ---
+  ID_EX.rs = 8
+  ID_EX.rt = 10
+  ID_EX.rd = 11
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0005
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 1
+  ID_EX.ALU.op      = 3
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 0
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0001
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 8
+  MEM_WB.regWrite = 1
+
+-------------- Clock 22 ---------------
+WB phase:
+  REGISTER 8 CHANGED.  Was: 0x0000_0000 Now: 0x0000_0001
+  A total of 1 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0018 instruction=0x0000_0000
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_0000
+  fields.imm32  = 0x0000_0000
+  fields.address  = 0x0000_0000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1000_0000
+  branchAddr = 0x1234_0018
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 4
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0001
+  ALU input2 = 0x0000_0005
+  ---
+  EX_MEM.rt = 10
+  EX_MEM.rtVal = 0x0000_0005
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 11
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0001
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 0
+
+-------------- Clock 23 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_001c instruction=0x0000_0000
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_0000
+  fields.imm32  = 0x0000_0000
+  fields.address  = 0x0000_0000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1000_0000
+  branchAddr = 0x1234_001c
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 4
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0001
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 11
+  MEM_WB.regWrite = 1
+
+-------------- Clock 24 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0020 instruction=0x1160_000d
+  fields.opcode = 4
+  fields.rs     = 11
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 13
+  fields.imm16  = 0x0000_000d
+  fields.imm32  = 0x0000_000d
+  fields.address  = 0x0160_000d
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1580_0034
+  branchAddr = 0x1234_0054
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 1
+
+-------------- Clock 25 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0024 instruction=0x012c_4820
+  fields.opcode = 0
+  fields.rs     = 9
+  fields.rt     = 12
+  fields.rd     = 9
+  fields.shamt  = 0
+  fields.funct  = 32
+  fields.imm16  = 0x0000_4820
+  fields.imm32  = 0x0000_4820
+  fields.address  = 0x012c_4820
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x14b1_2080
+  branchAddr = 0x1235_20a4
+  ---
+  ID_EX.rs = 9
+  ID_EX.rt = 12
+  ID_EX.rd = 9
+  ---
+  ID_EX.rsVal = 0x0000_000d
+  ID_EX.rtVal = 0x0000_0003
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 0
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 1
+
+-------------- Clock 26 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0028 instruction=0x2002_0001
+  fields.opcode = 8
+  fields.rs     = 0
+  fields.rt     = 2
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 1
+  fields.imm16  = 0x0000_0001
+  fields.imm32  = 0x0000_0001
+  fields.address  = 0x0002_0001
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1008_0004
+  branchAddr = 0x1234_002c
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 2
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_000b
+  ---
+  ID_EX.ALUsrc      = 1
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_000d
+  ALU input2 = 0x0000_0003
+  ---
+  EX_MEM.rt = 12
+  EX_MEM.rtVal = 0x0000_0003
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 9
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0010
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 0
+
+-------------- Clock 27 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_002c instruction=0x0120_2020
+  fields.opcode = 0
+  fields.rs     = 9
+  fields.rt     = 0
+  fields.rd     = 4
+  fields.shamt  = 0
+  fields.funct  = 32
+  fields.imm16  = 0x0000_2020
+  fields.imm32  = 0x0000_2020
+  fields.address  = 0x0120_2020
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1480_8080
+  branchAddr = 0x1234_80ac
+  ---
+  ID_EX.rs = 9
+  ID_EX.rt = 0
+  ID_EX.rd = 4
+  ---
+  ID_EX.rsVal = 0x0000_000d
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0001
+  ---
+  EX_MEM.rt = 2
+  EX_MEM.rtVal = 0x0000_000b
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 2
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0001
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0010
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 9
+  MEM_WB.regWrite = 1
+
+-------------- Clock 28 ---------------
+WB phase:
+  REGISTER 9 CHANGED.  Was: 0x0000_000d Now: 0x0000_0010
+  A total of 1 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0030 instruction=0x0000_0000
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_0000
+  fields.imm32  = 0x0000_0000
+  fields.address  = 0x0000_0000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1000_0000
+  branchAddr = 0x1234_0030
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 4
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0010
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 4
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0010
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0001
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 2
+  MEM_WB.regWrite = 1
+
+-------------- Clock 29 ---------------
+WB phase:
+  REGISTER 2 CHANGED.  Was: 0x0000_000b Now: 0x0000_0001
+  A total of 1 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0034 instruction=0x0000_0000
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_0000
+  fields.imm32  = 0x0000_0000
+  fields.address  = 0x0000_0000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1000_0000
+  branchAddr = 0x1234_0034
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 4
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0010
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 4
+  MEM_WB.regWrite = 1
+
+-------------- Clock 30 ---------------
+WB phase:
+  REGISTER 4 CHANGED.  Was: 0x0000_000a Now: 0x0000_0010
+  A total of 1 registers were changed.
+
+ID phase:
+16EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 1
+
+-------------- Clock 31 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_003c instruction=0x2002_000b
+  fields.opcode = 8
+  fields.rs     = 0
+  fields.rt     = 2
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 11
+  fields.imm16  = 0x0000_000b
+  fields.imm32  = 0x0000_000b
+  fields.address  = 0x0002_000b
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1008_002c
+  branchAddr = 0x1234_0068
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 2
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0001
+  ---
+  ID_EX.ALUsrc      = 1
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 0
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 1
+
+-------------- Clock 32 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0040 instruction=0x2004_000a
+  fields.opcode = 8
+  fields.rs     = 0
+  fields.rt     = 4
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 10
+  fields.imm16  = 0x0000_000a
+  fields.imm32  = 0x0000_000a
+  fields.address  = 0x0004_000a
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1010_0028
+  branchAddr = 0x1234_0068
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 4
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0010
+  ---
+  ID_EX.ALUsrc      = 1
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_000b
+  ---
+  EX_MEM.rt = 2
+  EX_MEM.rtVal = 0x0000_0001
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 2
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_000b
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 0
+
+-------------- Clock 33 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0044 instruction=0x0000_0000
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_0000
+  fields.imm32  = 0x0000_0000
+  fields.address  = 0x0000_0000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1000_0000
+  branchAddr = 0x1234_0044
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 4
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_000a
+  ---
+  EX_MEM.rt = 4
+  EX_MEM.rtVal = 0x0000_0010
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 4
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_000a
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_000b
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 2
+  MEM_WB.regWrite = 1
+
+-------------- Clock 34 ---------------
+WB phase:
+  REGISTER 2 CHANGED.  Was: 0x0000_0001 Now: 0x0000_000b
+  A total of 1 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0048 instruction=0x0000_0000
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_0000
+  fields.imm32  = 0x0000_0000
+  fields.address  = 0x0000_0000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1000_0000
+  branchAddr = 0x1234_0048
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 4
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_000a
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 4
+  MEM_WB.regWrite = 1
+
+-------------- Clock 35 ---------------
+WB phase:
+  REGISTER 4 CHANGED.  Was: 0x0000_0010 Now: 0x0000_000a
+  A total of 1 registers were changed.
+
+ID phase:
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 1
+
+-------------- Clock 36 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0050 instruction=0x2108_0001
+  fields.opcode = 8
+  fields.rs     = 8
+  fields.rt     = 8
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 1
+  fields.imm16  = 0x0000_0001
+  fields.imm32  = 0x0000_0001
+  fields.address  = 0x0108_0001
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1420_0004
+  branchAddr = 0x1234_0054
+  ---
+  ID_EX.rs = 8
+  ID_EX.rt = 8
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0001
+  ID_EX.rtVal = 0x0000_0001
+  ---
+  ID_EX.ALUsrc      = 1
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 0
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 1
+
+-------------- Clock 37 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0054 instruction=0x088d_0004
+  fields.opcode = 2
+  fields.rs     = 4
+  fields.rt     = 13
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 4
+  fields.imm16  = 0x0000_0004
+  fields.imm32  = 0x0000_0004
+  fields.address  = 0x008d_0004
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 2
+  jumpAddr   = 0x1234_0010
+  branchAddr = 0x1234_0064
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+EX phase:
+  ALU input1 = 0x0000_0001
+  ALU input2 = 0x0000_0001
+  ---
+  EX_MEM.rt = 8
+  EX_MEM.rtVal = 0x0000_0001
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 8
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0002
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 0
+
+-------------- Clock 38 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0014 instruction=0x010a_582a
+  fields.opcode = 0
+  fields.rs     = 8
+  fields.rt     = 10
+  fields.rd     = 11
+  fields.shamt  = 0
+  fields.funct  = 42
+  fields.imm16  = 0x0000_582a
+  fields.imm32  = 0x0000_582a
+  fields.address  = 0x010a_582a
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1429_60a8
+  branchAddr = 0x1235_60bc
+  ---
+  ID_EX.rs = 8
+  ID_EX.rt = 10
+  ID_EX.rd = 11
+  ---
+  ID_EX.rsVal = 0x0000_0001
+  ID_EX.rtVal = 0x0000_0005
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 1
+  ID_EX.ALU.op      = 3
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 0
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0002
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 8
+  MEM_WB.regWrite = 1
+
+-------------- Clock 39 ---------------
+WB phase:
+  REGISTER 8 CHANGED.  Was: 0x0000_0001 Now: 0x0000_0002
+  A total of 1 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0018 instruction=0x0000_0000
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_0000
+  fields.imm32  = 0x0000_0000
+  fields.address  = 0x0000_0000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1000_0000
+  branchAddr = 0x1234_0018
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 4
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0002
+  ALU input2 = 0x0000_0005
+  ---
+  EX_MEM.rt = 10
+  EX_MEM.rtVal = 0x0000_0005
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 11
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0001
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 0
+
+-------------- Clock 40 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_001c instruction=0x0000_0000
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_0000
+  fields.imm32  = 0x0000_0000
+  fields.address  = 0x0000_0000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1000_0000
+  branchAddr = 0x1234_001c
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 4
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0001
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 11
+  MEM_WB.regWrite = 1
+
+-------------- Clock 41 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0020 instruction=0x1160_000d
+  fields.opcode = 4
+  fields.rs     = 11
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 13
+  fields.imm16  = 0x0000_000d
+  fields.imm32  = 0x0000_000d
+  fields.address  = 0x0160_000d
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1580_0034
+  branchAddr = 0x1234_0054
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 1
+
+-------------- Clock 42 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0024 instruction=0x012c_4820
+  fields.opcode = 0
+  fields.rs     = 9
+  fields.rt     = 12
+  fields.rd     = 9
+  fields.shamt  = 0
+  fields.funct  = 32
+  fields.imm16  = 0x0000_4820
+  fields.imm32  = 0x0000_4820
+  fields.address  = 0x012c_4820
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x14b1_2080
+  branchAddr = 0x1235_20a4
+  ---
+  ID_EX.rs = 9
+  ID_EX.rt = 12
+  ID_EX.rd = 9
+  ---
+  ID_EX.rsVal = 0x0000_0010
+  ID_EX.rtVal = 0x0000_0003
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 0
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 1
+
+-------------- Clock 43 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0028 instruction=0x2002_0001
+  fields.opcode = 8
+  fields.rs     = 0
+  fields.rt     = 2
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 1
+  fields.imm16  = 0x0000_0001
+  fields.imm32  = 0x0000_0001
+  fields.address  = 0x0002_0001
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1008_0004
+  branchAddr = 0x1234_002c
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 2
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_000b
+  ---
+  ID_EX.ALUsrc      = 1
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0010
+  ALU input2 = 0x0000_0003
+  ---
+  EX_MEM.rt = 12
+  EX_MEM.rtVal = 0x0000_0003
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 9
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0013
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 0
+
+-------------- Clock 44 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_002c instruction=0x0120_2020
+  fields.opcode = 0
+  fields.rs     = 9
+  fields.rt     = 0
+  fields.rd     = 4
+  fields.shamt  = 0
+  fields.funct  = 32
+  fields.imm16  = 0x0000_2020
+  fields.imm32  = 0x0000_2020
+  fields.address  = 0x0120_2020
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1480_8080
+  branchAddr = 0x1234_80ac
+  ---
+  ID_EX.rs = 9
+  ID_EX.rt = 0
+  ID_EX.rd = 4
+  ---
+  ID_EX.rsVal = 0x0000_0010
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0001
+  ---
+  EX_MEM.rt = 2
+  EX_MEM.rtVal = 0x0000_000b
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 2
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0001
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0013
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 9
+  MEM_WB.regWrite = 1
+
+-------------- Clock 45 ---------------
+WB phase:
+  REGISTER 9 CHANGED.  Was: 0x0000_0010 Now: 0x0000_0013
+  A total of 1 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0030 instruction=0x0000_0000
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_0000
+  fields.imm32  = 0x0000_0000
+  fields.address  = 0x0000_0000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1000_0000
+  branchAddr = 0x1234_0030
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 4
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0013
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 4
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0013
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0001
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 2
+  MEM_WB.regWrite = 1
+
+-------------- Clock 46 ---------------
+WB phase:
+  REGISTER 2 CHANGED.  Was: 0x0000_000b Now: 0x0000_0001
+  A total of 1 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0034 instruction=0x0000_0000
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_0000
+  fields.imm32  = 0x0000_0000
+  fields.address  = 0x0000_0000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1000_0000
+  branchAddr = 0x1234_0034
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 4
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0013
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 4
+  MEM_WB.regWrite = 1
+
+-------------- Clock 47 ---------------
+WB phase:
+  REGISTER 4 CHANGED.  Was: 0x0000_000a Now: 0x0000_0013
+  A total of 1 registers were changed.
+
+ID phase:
+19EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 1
+
+-------------- Clock 48 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_003c instruction=0x2002_000b
+  fields.opcode = 8
+  fields.rs     = 0
+  fields.rt     = 2
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 11
+  fields.imm16  = 0x0000_000b
+  fields.imm32  = 0x0000_000b
+  fields.address  = 0x0002_000b
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1008_002c
+  branchAddr = 0x1234_0068
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 2
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0001
+  ---
+  ID_EX.ALUsrc      = 1
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 0
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 1
+
+-------------- Clock 49 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0040 instruction=0x2004_000a
+  fields.opcode = 8
+  fields.rs     = 0
+  fields.rt     = 4
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 10
+  fields.imm16  = 0x0000_000a
+  fields.imm32  = 0x0000_000a
+  fields.address  = 0x0004_000a
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1010_0028
+  branchAddr = 0x1234_0068
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 4
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0013
+  ---
+  ID_EX.ALUsrc      = 1
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_000b
+  ---
+  EX_MEM.rt = 2
+  EX_MEM.rtVal = 0x0000_0001
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 2
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_000b
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 0
+
+-------------- Clock 50 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0044 instruction=0x0000_0000
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_0000
+  fields.imm32  = 0x0000_0000
+  fields.address  = 0x0000_0000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1000_0000
+  branchAddr = 0x1234_0044
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 4
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_000a
+  ---
+  EX_MEM.rt = 4
+  EX_MEM.rtVal = 0x0000_0013
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 4
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_000a
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_000b
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 2
+  MEM_WB.regWrite = 1
+
+-------------- Clock 51 ---------------
+WB phase:
+  REGISTER 2 CHANGED.  Was: 0x0000_0001 Now: 0x0000_000b
+  A total of 1 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0048 instruction=0x0000_0000
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_0000
+  fields.imm32  = 0x0000_0000
+  fields.address  = 0x0000_0000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1000_0000
+  branchAddr = 0x1234_0048
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 4
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_000a
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 4
+  MEM_WB.regWrite = 1
+
+-------------- Clock 52 ---------------
+WB phase:
+  REGISTER 4 CHANGED.  Was: 0x0000_0013 Now: 0x0000_000a
+  A total of 1 registers were changed.
+
+ID phase:
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 1
+
+-------------- Clock 53 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0050 instruction=0x2108_0001
+  fields.opcode = 8
+  fields.rs     = 8
+  fields.rt     = 8
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 1
+  fields.imm16  = 0x0000_0001
+  fields.imm32  = 0x0000_0001
+  fields.address  = 0x0108_0001
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1420_0004
+  branchAddr = 0x1234_0054
+  ---
+  ID_EX.rs = 8
+  ID_EX.rt = 8
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0002
+  ID_EX.rtVal = 0x0000_0002
+  ---
+  ID_EX.ALUsrc      = 1
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 0
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 1
+
+-------------- Clock 54 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0054 instruction=0x088d_0004
+  fields.opcode = 2
+  fields.rs     = 4
+  fields.rt     = 13
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 4
+  fields.imm16  = 0x0000_0004
+  fields.imm32  = 0x0000_0004
+  fields.address  = 0x008d_0004
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 2
+  jumpAddr   = 0x1234_0010
+  branchAddr = 0x1234_0064
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+EX phase:
+  ALU input1 = 0x0000_0002
+  ALU input2 = 0x0000_0001
+  ---
+  EX_MEM.rt = 8
+  EX_MEM.rtVal = 0x0000_0002
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 8
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0003
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 0
+
+-------------- Clock 55 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0014 instruction=0x010a_582a
+  fields.opcode = 0
+  fields.rs     = 8
+  fields.rt     = 10
+  fields.rd     = 11
+  fields.shamt  = 0
+  fields.funct  = 42
+  fields.imm16  = 0x0000_582a
+  fields.imm32  = 0x0000_582a
+  fields.address  = 0x010a_582a
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1429_60a8
+  branchAddr = 0x1235_60bc
+  ---
+  ID_EX.rs = 8
+  ID_EX.rt = 10
+  ID_EX.rd = 11
+  ---
+  ID_EX.rsVal = 0x0000_0002
+  ID_EX.rtVal = 0x0000_0005
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 1
+  ID_EX.ALU.op      = 3
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 0
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0003
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 8
+  MEM_WB.regWrite = 1
+
+-------------- Clock 56 ---------------
+WB phase:
+  REGISTER 8 CHANGED.  Was: 0x0000_0002 Now: 0x0000_0003
+  A total of 1 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0018 instruction=0x0000_0000
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_0000
+  fields.imm32  = 0x0000_0000
+  fields.address  = 0x0000_0000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1000_0000
+  branchAddr = 0x1234_0018
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 4
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0003
+  ALU input2 = 0x0000_0005
+  ---
+  EX_MEM.rt = 10
+  EX_MEM.rtVal = 0x0000_0005
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 11
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0001
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 0
+
+-------------- Clock 57 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_001c instruction=0x0000_0000
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_0000
+  fields.imm32  = 0x0000_0000
+  fields.address  = 0x0000_0000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1000_0000
+  branchAddr = 0x1234_001c
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 4
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0001
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 11
+  MEM_WB.regWrite = 1
+
+-------------- Clock 58 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0020 instruction=0x1160_000d
+  fields.opcode = 4
+  fields.rs     = 11
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 13
+  fields.imm16  = 0x0000_000d
+  fields.imm32  = 0x0000_000d
+  fields.address  = 0x0160_000d
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1580_0034
+  branchAddr = 0x1234_0054
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 1
+
+-------------- Clock 59 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0024 instruction=0x012c_4820
+  fields.opcode = 0
+  fields.rs     = 9
+  fields.rt     = 12
+  fields.rd     = 9
+  fields.shamt  = 0
+  fields.funct  = 32
+  fields.imm16  = 0x0000_4820
+  fields.imm32  = 0x0000_4820
+  fields.address  = 0x012c_4820
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x14b1_2080
+  branchAddr = 0x1235_20a4
+  ---
+  ID_EX.rs = 9
+  ID_EX.rt = 12
+  ID_EX.rd = 9
+  ---
+  ID_EX.rsVal = 0x0000_0013
+  ID_EX.rtVal = 0x0000_0003
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 0
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 1
+
+-------------- Clock 60 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0028 instruction=0x2002_0001
+  fields.opcode = 8
+  fields.rs     = 0
+  fields.rt     = 2
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 1
+  fields.imm16  = 0x0000_0001
+  fields.imm32  = 0x0000_0001
+  fields.address  = 0x0002_0001
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1008_0004
+  branchAddr = 0x1234_002c
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 2
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_000b
+  ---
+  ID_EX.ALUsrc      = 1
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0013
+  ALU input2 = 0x0000_0003
+  ---
+  EX_MEM.rt = 12
+  EX_MEM.rtVal = 0x0000_0003
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 9
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0016
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 0
+
+-------------- Clock 61 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_002c instruction=0x0120_2020
+  fields.opcode = 0
+  fields.rs     = 9
+  fields.rt     = 0
+  fields.rd     = 4
+  fields.shamt  = 0
+  fields.funct  = 32
+  fields.imm16  = 0x0000_2020
+  fields.imm32  = 0x0000_2020
+  fields.address  = 0x0120_2020
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1480_8080
+  branchAddr = 0x1234_80ac
+  ---
+  ID_EX.rs = 9
+  ID_EX.rt = 0
+  ID_EX.rd = 4
+  ---
+  ID_EX.rsVal = 0x0000_0013
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0001
+  ---
+  EX_MEM.rt = 2
+  EX_MEM.rtVal = 0x0000_000b
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 2
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0001
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0016
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 9
+  MEM_WB.regWrite = 1
+
+-------------- Clock 62 ---------------
+WB phase:
+  REGISTER 9 CHANGED.  Was: 0x0000_0013 Now: 0x0000_0016
+  A total of 1 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0030 instruction=0x0000_0000
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_0000
+  fields.imm32  = 0x0000_0000
+  fields.address  = 0x0000_0000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1000_0000
+  branchAddr = 0x1234_0030
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 4
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0016
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 4
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0016
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0001
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 2
+  MEM_WB.regWrite = 1
+
+-------------- Clock 63 ---------------
+WB phase:
+  REGISTER 2 CHANGED.  Was: 0x0000_000b Now: 0x0000_0001
+  A total of 1 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0034 instruction=0x0000_0000
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_0000
+  fields.imm32  = 0x0000_0000
+  fields.address  = 0x0000_0000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1000_0000
+  branchAddr = 0x1234_0034
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 4
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0016
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 4
+  MEM_WB.regWrite = 1
+
+-------------- Clock 64 ---------------
+WB phase:
+  REGISTER 4 CHANGED.  Was: 0x0000_000a Now: 0x0000_0016
+  A total of 1 registers were changed.
+
+ID phase:
+22EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 1
+
+-------------- Clock 65 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_003c instruction=0x2002_000b
+  fields.opcode = 8
+  fields.rs     = 0
+  fields.rt     = 2
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 11
+  fields.imm16  = 0x0000_000b
+  fields.imm32  = 0x0000_000b
+  fields.address  = 0x0002_000b
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1008_002c
+  branchAddr = 0x1234_0068
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 2
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0001
+  ---
+  ID_EX.ALUsrc      = 1
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 0
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 1
+
+-------------- Clock 66 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0040 instruction=0x2004_000a
+  fields.opcode = 8
+  fields.rs     = 0
+  fields.rt     = 4
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 10
+  fields.imm16  = 0x0000_000a
+  fields.imm32  = 0x0000_000a
+  fields.address  = 0x0004_000a
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1010_0028
+  branchAddr = 0x1234_0068
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 4
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0016
+  ---
+  ID_EX.ALUsrc      = 1
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_000b
+  ---
+  EX_MEM.rt = 2
+  EX_MEM.rtVal = 0x0000_0001
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 2
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_000b
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 0
+
+-------------- Clock 67 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0044 instruction=0x0000_0000
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_0000
+  fields.imm32  = 0x0000_0000
+  fields.address  = 0x0000_0000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1000_0000
+  branchAddr = 0x1234_0044
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 4
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_000a
+  ---
+  EX_MEM.rt = 4
+  EX_MEM.rtVal = 0x0000_0016
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 4
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_000a
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_000b
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 2
+  MEM_WB.regWrite = 1
+
+-------------- Clock 68 ---------------
+WB phase:
+  REGISTER 2 CHANGED.  Was: 0x0000_0001 Now: 0x0000_000b
+  A total of 1 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0048 instruction=0x0000_0000
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_0000
+  fields.imm32  = 0x0000_0000
+  fields.address  = 0x0000_0000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1000_0000
+  branchAddr = 0x1234_0048
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 4
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_000a
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 4
+  MEM_WB.regWrite = 1
+
+-------------- Clock 69 ---------------
+WB phase:
+  REGISTER 4 CHANGED.  Was: 0x0000_0016 Now: 0x0000_000a
+  A total of 1 registers were changed.
+
+ID phase:
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 1
+
+-------------- Clock 70 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0050 instruction=0x2108_0001
+  fields.opcode = 8
+  fields.rs     = 8
+  fields.rt     = 8
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 1
+  fields.imm16  = 0x0000_0001
+  fields.imm32  = 0x0000_0001
+  fields.address  = 0x0108_0001
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1420_0004
+  branchAddr = 0x1234_0054
+  ---
+  ID_EX.rs = 8
+  ID_EX.rt = 8
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0003
+  ID_EX.rtVal = 0x0000_0003
+  ---
+  ID_EX.ALUsrc      = 1
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 0
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 1
+
+-------------- Clock 71 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0054 instruction=0x088d_0004
+  fields.opcode = 2
+  fields.rs     = 4
+  fields.rt     = 13
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 4
+  fields.imm16  = 0x0000_0004
+  fields.imm32  = 0x0000_0004
+  fields.address  = 0x008d_0004
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 2
+  jumpAddr   = 0x1234_0010
+  branchAddr = 0x1234_0064
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+EX phase:
+  ALU input1 = 0x0000_0003
+  ALU input2 = 0x0000_0001
+  ---
+  EX_MEM.rt = 8
+  EX_MEM.rtVal = 0x0000_0003
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 8
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0004
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 0
+
+-------------- Clock 72 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0014 instruction=0x010a_582a
+  fields.opcode = 0
+  fields.rs     = 8
+  fields.rt     = 10
+  fields.rd     = 11
+  fields.shamt  = 0
+  fields.funct  = 42
+  fields.imm16  = 0x0000_582a
+  fields.imm32  = 0x0000_582a
+  fields.address  = 0x010a_582a
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1429_60a8
+  branchAddr = 0x1235_60bc
+  ---
+  ID_EX.rs = 8
+  ID_EX.rt = 10
+  ID_EX.rd = 11
+  ---
+  ID_EX.rsVal = 0x0000_0003
+  ID_EX.rtVal = 0x0000_0005
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 1
+  ID_EX.ALU.op      = 3
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 0
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0004
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 8
+  MEM_WB.regWrite = 1
+
+-------------- Clock 73 ---------------
+WB phase:
+  REGISTER 8 CHANGED.  Was: 0x0000_0003 Now: 0x0000_0004
+  A total of 1 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0018 instruction=0x0000_0000
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_0000
+  fields.imm32  = 0x0000_0000
+  fields.address  = 0x0000_0000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1000_0000
+  branchAddr = 0x1234_0018
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 4
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0004
+  ALU input2 = 0x0000_0005
+  ---
+  EX_MEM.rt = 10
+  EX_MEM.rtVal = 0x0000_0005
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 11
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0001
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 0
+
+-------------- Clock 74 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_001c instruction=0x0000_0000
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_0000
+  fields.imm32  = 0x0000_0000
+  fields.address  = 0x0000_0000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1000_0000
+  branchAddr = 0x1234_001c
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 4
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0001
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 11
+  MEM_WB.regWrite = 1
+
+-------------- Clock 75 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0020 instruction=0x1160_000d
+  fields.opcode = 4
+  fields.rs     = 11
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 13
+  fields.imm16  = 0x0000_000d
+  fields.imm32  = 0x0000_000d
+  fields.address  = 0x0160_000d
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1580_0034
+  branchAddr = 0x1234_0054
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 1
+
+-------------- Clock 76 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0024 instruction=0x012c_4820
+  fields.opcode = 0
+  fields.rs     = 9
+  fields.rt     = 12
+  fields.rd     = 9
+  fields.shamt  = 0
+  fields.funct  = 32
+  fields.imm16  = 0x0000_4820
+  fields.imm32  = 0x0000_4820
+  fields.address  = 0x012c_4820
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x14b1_2080
+  branchAddr = 0x1235_20a4
+  ---
+  ID_EX.rs = 9
+  ID_EX.rt = 12
+  ID_EX.rd = 9
+  ---
+  ID_EX.rsVal = 0x0000_0016
+  ID_EX.rtVal = 0x0000_0003
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 0
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 1
+
+-------------- Clock 77 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0028 instruction=0x2002_0001
+  fields.opcode = 8
+  fields.rs     = 0
+  fields.rt     = 2
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 1
+  fields.imm16  = 0x0000_0001
+  fields.imm32  = 0x0000_0001
+  fields.address  = 0x0002_0001
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1008_0004
+  branchAddr = 0x1234_002c
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 2
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_000b
+  ---
+  ID_EX.ALUsrc      = 1
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0016
+  ALU input2 = 0x0000_0003
+  ---
+  EX_MEM.rt = 12
+  EX_MEM.rtVal = 0x0000_0003
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 9
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0019
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 0
+
+-------------- Clock 78 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_002c instruction=0x0120_2020
+  fields.opcode = 0
+  fields.rs     = 9
+  fields.rt     = 0
+  fields.rd     = 4
+  fields.shamt  = 0
+  fields.funct  = 32
+  fields.imm16  = 0x0000_2020
+  fields.imm32  = 0x0000_2020
+  fields.address  = 0x0120_2020
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1480_8080
+  branchAddr = 0x1234_80ac
+  ---
+  ID_EX.rs = 9
+  ID_EX.rt = 0
+  ID_EX.rd = 4
+  ---
+  ID_EX.rsVal = 0x0000_0016
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0001
+  ---
+  EX_MEM.rt = 2
+  EX_MEM.rtVal = 0x0000_000b
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 2
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0001
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0019
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 9
+  MEM_WB.regWrite = 1
+
+-------------- Clock 79 ---------------
+WB phase:
+  REGISTER 9 CHANGED.  Was: 0x0000_0016 Now: 0x0000_0019
+  A total of 1 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0030 instruction=0x0000_0000
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_0000
+  fields.imm32  = 0x0000_0000
+  fields.address  = 0x0000_0000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1000_0000
+  branchAddr = 0x1234_0030
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 4
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0019
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 4
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0019
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0001
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 2
+  MEM_WB.regWrite = 1
+
+-------------- Clock 80 ---------------
+WB phase:
+  REGISTER 2 CHANGED.  Was: 0x0000_000b Now: 0x0000_0001
+  A total of 1 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0034 instruction=0x0000_0000
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_0000
+  fields.imm32  = 0x0000_0000
+  fields.address  = 0x0000_0000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1000_0000
+  branchAddr = 0x1234_0034
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 4
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0019
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 4
+  MEM_WB.regWrite = 1
+
+-------------- Clock 81 ---------------
+WB phase:
+  REGISTER 4 CHANGED.  Was: 0x0000_000a Now: 0x0000_0019
+  A total of 1 registers were changed.
+
+ID phase:
+25EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 1
+
+-------------- Clock 82 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_003c instruction=0x2002_000b
+  fields.opcode = 8
+  fields.rs     = 0
+  fields.rt     = 2
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 11
+  fields.imm16  = 0x0000_000b
+  fields.imm32  = 0x0000_000b
+  fields.address  = 0x0002_000b
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1008_002c
+  branchAddr = 0x1234_0068
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 2
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0001
+  ---
+  ID_EX.ALUsrc      = 1
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 0
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 1
+
+-------------- Clock 83 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0040 instruction=0x2004_000a
+  fields.opcode = 8
+  fields.rs     = 0
+  fields.rt     = 4
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 10
+  fields.imm16  = 0x0000_000a
+  fields.imm32  = 0x0000_000a
+  fields.address  = 0x0004_000a
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1010_0028
+  branchAddr = 0x1234_0068
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 4
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0019
+  ---
+  ID_EX.ALUsrc      = 1
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_000b
+  ---
+  EX_MEM.rt = 2
+  EX_MEM.rtVal = 0x0000_0001
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 2
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_000b
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 0
+
+-------------- Clock 84 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0044 instruction=0x0000_0000
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_0000
+  fields.imm32  = 0x0000_0000
+  fields.address  = 0x0000_0000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1000_0000
+  branchAddr = 0x1234_0044
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 4
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_000a
+  ---
+  EX_MEM.rt = 4
+  EX_MEM.rtVal = 0x0000_0019
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 4
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_000a
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_000b
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 2
+  MEM_WB.regWrite = 1
+
+-------------- Clock 85 ---------------
+WB phase:
+  REGISTER 2 CHANGED.  Was: 0x0000_0001 Now: 0x0000_000b
+  A total of 1 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0048 instruction=0x0000_0000
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_0000
+  fields.imm32  = 0x0000_0000
+  fields.address  = 0x0000_0000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1000_0000
+  branchAddr = 0x1234_0048
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 4
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_000a
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 4
+  MEM_WB.regWrite = 1
+
+-------------- Clock 86 ---------------
+WB phase:
+  REGISTER 4 CHANGED.  Was: 0x0000_0019 Now: 0x0000_000a
+  A total of 1 registers were changed.
+
+ID phase:
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 1
+
+-------------- Clock 87 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0050 instruction=0x2108_0001
+  fields.opcode = 8
+  fields.rs     = 8
+  fields.rt     = 8
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 1
+  fields.imm16  = 0x0000_0001
+  fields.imm32  = 0x0000_0001
+  fields.address  = 0x0108_0001
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1420_0004
+  branchAddr = 0x1234_0054
+  ---
+  ID_EX.rs = 8
+  ID_EX.rt = 8
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0004
+  ID_EX.rtVal = 0x0000_0004
+  ---
+  ID_EX.ALUsrc      = 1
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 0
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 1
+
+-------------- Clock 88 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0054 instruction=0x088d_0004
+  fields.opcode = 2
+  fields.rs     = 4
+  fields.rt     = 13
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 4
+  fields.imm16  = 0x0000_0004
+  fields.imm32  = 0x0000_0004
+  fields.address  = 0x008d_0004
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 2
+  jumpAddr   = 0x1234_0010
+  branchAddr = 0x1234_0064
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+EX phase:
+  ALU input1 = 0x0000_0004
+  ALU input2 = 0x0000_0001
+  ---
+  EX_MEM.rt = 8
+  EX_MEM.rtVal = 0x0000_0004
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 8
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0005
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 0
+
+-------------- Clock 89 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0014 instruction=0x010a_582a
+  fields.opcode = 0
+  fields.rs     = 8
+  fields.rt     = 10
+  fields.rd     = 11
+  fields.shamt  = 0
+  fields.funct  = 42
+  fields.imm16  = 0x0000_582a
+  fields.imm32  = 0x0000_582a
+  fields.address  = 0x010a_582a
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1429_60a8
+  branchAddr = 0x1235_60bc
+  ---
+  ID_EX.rs = 8
+  ID_EX.rt = 10
+  ID_EX.rd = 11
+  ---
+  ID_EX.rsVal = 0x0000_0004
+  ID_EX.rtVal = 0x0000_0005
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 1
+  ID_EX.ALU.op      = 3
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 0
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0005
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 8
+  MEM_WB.regWrite = 1
+
+-------------- Clock 90 ---------------
+WB phase:
+  REGISTER 8 CHANGED.  Was: 0x0000_0004 Now: 0x0000_0005
+  A total of 1 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0018 instruction=0x0000_0000
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_0000
+  fields.imm32  = 0x0000_0000
+  fields.address  = 0x0000_0000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1000_0000
+  branchAddr = 0x1234_0018
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 4
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0005
+  ALU input2 = 0x0000_0005
+  ---
+  EX_MEM.rt = 10
+  EX_MEM.rtVal = 0x0000_0005
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 11
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 0
+
+-------------- Clock 91 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_001c instruction=0x0000_0000
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_0000
+  fields.imm32  = 0x0000_0000
+  fields.address  = 0x0000_0000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1000_0000
+  branchAddr = 0x1234_001c
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 4
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 11
+  MEM_WB.regWrite = 1
+
+-------------- Clock 92 ---------------
+WB phase:
+  REGISTER 11 CHANGED.  Was: 0x0000_0001 Now: 0x0000_0000
+  A total of 1 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0020 instruction=0x1160_000d
+  fields.opcode = 4
+  fields.rs     = 11
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 13
+  fields.imm16  = 0x0000_000d
+  fields.imm32  = 0x0000_000d
+  fields.address  = 0x0160_000d
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 1
+  jumpAddr   = 0x1580_0034
+  branchAddr = 0x1234_0054
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 1
+
+-------------- Clock 93 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0058 instruction=0x2002_000a
+  fields.opcode = 8
+  fields.rs     = 0
+  fields.rt     = 2
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 10
+  fields.imm16  = 0x0000_000a
+  fields.imm32  = 0x0000_000a
+  fields.address  = 0x0002_000a
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1008_0028
+  branchAddr = 0x1234_0080
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 2
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_000b
+  ---
+  ID_EX.ALUsrc      = 1
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 0
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 1
+
+-------------- Clock 94 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_005c instruction=0x0000_0000
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_0000
+  fields.imm32  = 0x0000_0000
+  fields.address  = 0x0000_0000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1000_0000
+  branchAddr = 0x1234_005c
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 4
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_000a
+  ---
+  EX_MEM.rt = 2
+  EX_MEM.rtVal = 0x0000_000b
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 2
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_000a
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_0000
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 0
+  MEM_WB.regWrite = 0
+
+-------------- Clock 95 ---------------
+WB phase:
+  A total of 0 registers were changed.
+
+ID phase:
+Before extract_instructionFields(): pc+4=0x1234_0060 instruction=0x0000_0000
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 0
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_0000
+  fields.imm32  = 0x0000_0000
+  fields.address  = 0x0000_0000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1000_0000
+  branchAddr = 0x1234_0060
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 4
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+EX phase:
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+MEM phase:
+  MEM_WB.memToReg  = 0
+  MEM_WB.aluResult = 0x0000_000a
+  MEM_WB.memResult = 0x0000_0000
+  ---
+  MEM_WB.writeReg = 2
+  MEM_WB.regWrite = 1
+
+-------------- Clock 96 ---------------
+WB phase:
+  REGISTER 2 CHANGED.  Was: 0x0000_000b Now: 0x0000_000a
+  A total of 1 registers were changed.
+
+ID phase:
+--- syscall 10 executed: Normal termination of the assembly language program.

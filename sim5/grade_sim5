@@ -1,0 +1,258 @@
+#! /bin/bash
+
+
+# Occasionally, students use UTF-8 characters in their source code (usually
+# without knowing it).  We might as well support it.
+LC_ALL="en_US.UTF-8"
+
+
+# Java figures out the proper student .java files that are required - but we
+# need a little help for C and assembly.  If you leave either of these blank,
+# then this type of testing simply won't work.
+C_SRC="sim5.c sim5_test_commonCode.c"
+S_SRC=
+
+
+
+if [[ $(which timeout 2>/dev/null) = "" ]]
+then
+  echo "ERROR: The command 'timeout' is not installed on this system, the grading script will not work." 1>&2
+  exit 1
+fi
+
+
+
+JAVA_SRCS=$(ls -1 *.java 2>/dev/null | grep -v -i -E "^Test_")
+
+if [[ $JAVA_SRCS != "" ]]
+then
+  echo "Compiling all of the Java sources - your code, plus all of the testcases..."
+
+  # BUGFIX:
+  #
+  # It appears that Java does *NOT* remove old .class files when compilation
+  # fails.  So we had a student who had an old, buggy implementation of the
+  # code (which compiled).  When they changed it to a new (non-compiling)
+  # version, javac (correctly) fails to compile the code but (maddeningly)
+  # leaves the old .class files around.  So, when the code runs, the student
+  # sees the old behavior, for reasons that they don't understand.
+  rm *.class 2>/dev/null
+
+  # BUGFIX:
+  #
+  # When there is an error which breaks some (but not all) of the files, javac
+  # will abort *all* of the builds.  So we had a student who lost *all* of his
+  # testcase points because *some* testcases were broken.  So we'd like to
+  # build all of the files individually.
+  #
+  # However, doing it that way (by default) is likely to be quite slow.  So
+  # we will instead only fall back on that plan when the original compile
+  # fails.
+  javac *.java || {
+    echo "--- JAVA COMPILE FAILURE ---"
+    echo "javac reported some errors while building your code.  (See the output above.)"
+    echo "This script will now re-run javac on each file, one at a time, in hopes of"
+    echo "succeeding in building some of the testcases."
+    echo
+    echo "In order to not clutter up the script output, this rebuild will *NOT* print"
+    echo "out any error messages; refer to the output above to see why javac failed."
+    echo
+    echo "This process is likely to be slow; if you want, you can use Ctrl-C to kill"
+    echo "this rebuild operation."
+    echo "----------------------------"
+
+    ls -1 *.java 2>&1 | xargs -r -n1 javac 1>/dev/null 2>&1
+  }
+fi
+
+
+if [[ ${S_SRC} != "" ]]
+then
+  if [[ ! -f mars.jar ]]
+  then
+    echo "Cannot find the Mars JAR file 'mars.jar'.  Please copy the JAR file into the same directoy as the grading script - and name it 'mars.jar' ."
+    exit 1
+  fi
+fi
+
+
+attempts=0
+pass=0
+
+# this variable can be increased, to apply various penalties for breaking
+# the rules!
+penaltyDivisor=1
+
+failList=""
+
+
+
+# run the MIPS checking script, which hunts down pseudoinstructions.
+if [[ ${S_SRC} != "" ]]
+then
+  if [[ ! -x mips_checker.pl ]]
+  then
+    echo "ERROR: The script mips_checker.pl either is not in the current directory, or is not executable.  Please fix this.  Until you do, this script will cut your score in half."
+
+    penaltyDivisor=$(( penaltyDivisor*2 ))
+  elif [[ $(./mips_checker.pl < ${S_SRC} 2>&1) != "" ]]
+  then
+    echo "ERROR: mips_checker.pl reported some invalid instructions in your program - your grade will be cut in half."
+    echo "   ----- BEGIN mips_checker.pl -----"
+    ./mips_checker.pl < ${S_SRC} 2>&1
+    echo "   ----- END mips_checker.pl -----"
+
+    penaltyDivisor=$(( penaltyDivisor*2 ))
+  fi
+fi
+
+
+echo
+echo "************* Running the testcases *************"
+echo
+
+
+for TESTCASE in $(ls -1 Test_*.java test_*.[cs] 2>/dev/null)
+do
+  attempts=$(( attempts+1 ))
+
+  BASE=$(echo $TESTCASE | rev | cut -f2- -d'.' | rev)
+  TYPE=$(echo $TESTCASE | rev | cut -f1  -d'.' | rev)
+
+  if [[ ! -f $BASE.out ]]
+  then
+    echo "******************************"
+    echo "* TESTCASE '$TESTCASE' FAILED"
+    echo "******************************"
+    echo "ERROR: The testcase file '$TESTCASE' was found, but could not find a matching output file '$BASE.out'"
+
+    failList="$failList
+*     $TESTCASE"
+    continue
+  fi
+
+
+  # how long is the output example?  We'll use this to calculate exactly how
+  # much output we'll save.
+  lines=$(wc -l $BASE.out | cut -f1 -d' ')
+  lines=$(( lines*2 + 10 ))
+
+
+  # run the testcase.  Save the file into a temporary file.  Of course, each
+  # different type of testcase is run in a different way.
+  if [[ $TYPE = "s" ]]
+  then
+    # we use head and tail to remove the stuff that Mars adds to the program
+    # (2 lines at the head, 1 at the tail).  We then, later, use *ANOTHER*
+    # head operation to limit user data if the user generates far too much
+    # data.
+    timeout 15s java -jar mars.jar sm nc ${S_SRC} $BASE.s 2>$BASE.stderr | cut -c-1000 | head -n-1 | head -n$lines > $BASE.student_output
+
+  elif [[ $TYPE = "java" ]]
+  then
+    timeout 15s java $BASE 2>$BASE.stderr | cut -c-1000 | head -n$lines > $BASE.student_output
+
+  elif [[ $TYPE = "c" ]]
+  then
+    echo "Compiling the testcase $TESTCASE, and linking it to ${C_SRC}..."
+    gcc -std=gnu99 ${C_SRC} $BASE.c -o $BASE
+
+    RC=$?
+    if [[ $RC != 0 ]]
+    then
+      echo
+      echo "******************************"
+      echo "* TESTCASE '$TESTCASE' FAILED"
+      echo "******************************"
+      echo "ERROR: The compilation process had a non-zero return code $RC."
+
+    failList="$failList
+*     $TESTCASE"
+
+      continue
+    fi
+
+    {
+      timeout 15s ./$BASE > >(cut -c-1000 | head -n$lines) 2>$BASE.stderr
+
+      RC=$?
+      if [[ $RC != 0 ]]
+      then
+        echo
+        echo "ERROR return code was: $RC"
+      fi
+    } > $BASE.student_output
+
+  else
+    echo "ERROR: The file extension $TYPE is not a recognized testcase type." | tee $BASE.student_output
+
+    failList="$failList
+*     $TESTCASE"
+    continue
+  fi
+
+
+  if [[ -s $BASE.stderr || $(diff $BASE.student_output $BASE.out 2>&1) != "" ]]
+  then
+    echo "******************************"
+    echo "* TESTCASE '$TESTCASE' FAILED"
+    echo "******************************"
+    echo
+
+    if [[ -s $BASE.stderr ]]
+    then
+      echo "     ----- stderr -----"
+      cat $BASE.stderr
+      echo "     ----- END stderr -----"
+      echo
+    else
+      rm $BASE.stderr
+
+      echo "     ----- diff OUTPUT -----"
+      diff $BASE.out $BASE.student_output
+      echo "     ----- END diff -----"
+      echo
+    fi
+
+    failList="$failList
+*     $TESTCASE"
+
+  else
+    echo "******************************"
+    echo "* Testcase '$TESTCASE' passed"
+    echo "******************************"
+
+    rm $BASE.student_output $BASE.stderr
+    pass=$(( pass+1 ))
+
+    echo
+  fi
+done
+
+
+MAX_AUTO_SCORE=70
+
+echo
+echo "*******************************************"
+echo "*            OVERALL REPORT"
+echo "* attempts: $attempts"
+echo "* passed:   $pass"
+echo "*"
+
+if [[ $penaltyDivisor != 1 ]]
+then
+  echo "* penaltyDivisor: $penaltyDivisor    (see above)"
+fi
+
+echo "* score:    $(( MAX_AUTO_SCORE * pass / attempts / penaltyDivisor ))"
+
+if [[ $failList != "" ]]
+then
+  echo "*"
+  echo "* failed:  $failList"
+  echo "*"
+fi
+
+echo "*******************************************"
+
+

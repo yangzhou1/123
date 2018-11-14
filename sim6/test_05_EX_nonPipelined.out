@@ -1,0 +1,1029 @@
+Before extract_instructionFields(): pc+4=0x46dd_b0ec instruction=0x0232_8020
+  fields.opcode = 0
+  fields.rs     = 17
+  fields.rt     = 18
+  fields.rd     = 16
+  fields.shamt  = 0
+  fields.funct  = 32
+  fields.imm16  = 0x0000_8020
+  fields.imm32  = 0xffff_8020
+  fields.address  = 0x0232_8020
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x48ca_0080
+  branchAddr = 0x46db_b16c
+  ---
+  ID_EX.rs = 17
+  ID_EX.rt = 18
+  ID_EX.rd = 16
+  ---
+  ID_EX.rsVal = 0x1111_1111
+  ID_EX.rtVal = 0x1212_1212
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+  ALU input1 = 0x1111_1111
+  ALU input2 = 0x1212_1212
+  ---
+  EX_MEM.rt = 18
+  EX_MEM.rtVal = 0x1212_1212
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 16
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x2323_2323
+
+Before extract_instructionFields(): pc+4=0x4bf5_33a8 instruction=0x0295_9822
+  fields.opcode = 0
+  fields.rs     = 20
+  fields.rt     = 21
+  fields.rd     = 19
+  fields.shamt  = 0
+  fields.funct  = 34
+  fields.imm16  = 0x0000_9822
+  fields.imm32  = 0xffff_9822
+  fields.address  = 0x0295_9822
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x4a56_6088
+  branchAddr = 0x4bf3_9430
+  ---
+  ID_EX.rs = 20
+  ID_EX.rt = 21
+  ID_EX.rd = 19
+  ---
+  ID_EX.rsVal = 0x1414_1414
+  ID_EX.rtVal = 0x1515_1515
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 1
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+  ALU input1 = 0x1414_1414
+  ALU input2 = 0x1515_1515
+  ---
+  EX_MEM.rt = 21
+  EX_MEM.rtVal = 0x1515_1515
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 19
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0xfefe_feff
+
+Before extract_instructionFields(): pc+4=0x1161_aaf4 instruction=0x216a_ffff
+  fields.opcode = 8
+  fields.rs     = 11
+  fields.rt     = 10
+  fields.rd     = 31
+  fields.shamt  = 31
+  fields.funct  = 63
+  fields.imm16  = 0x0000_ffff
+  fields.imm32  = 0xffff_ffff
+  fields.address  = 0x016a_ffff
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x15ab_fffc
+  branchAddr = 0x1161_aaf0
+  ---
+  ID_EX.rs = 11
+  ID_EX.rt = 10
+  ID_EX.rd = 31
+  ---
+  ID_EX.rsVal = 0x0b0b_0b0b
+  ID_EX.rtVal = 0x0a0a_0a0a
+  ---
+  ID_EX.ALUsrc      = 1
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+  ALU input1 = 0x0b0b_0b0b
+  ALU input2 = 0xffff_ffff
+  ---
+  EX_MEM.rt = 10
+  EX_MEM.rtVal = 0x0a0a_0a0a
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 10
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0b0b_0b0a
+
+Before extract_instructionFields(): pc+4=0x753e_126c instruction=0x21ac_0010
+  fields.opcode = 8
+  fields.rs     = 13
+  fields.rt     = 12
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 16
+  fields.imm16  = 0x0000_0010
+  fields.imm32  = 0x0000_0010
+  fields.address  = 0x01ac_0010
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x76b0_0040
+  branchAddr = 0x753e_12ac
+  ---
+  ID_EX.rs = 13
+  ID_EX.rt = 12
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0d0d_0d0d
+  ID_EX.rtVal = 0x0c0c_0c0c
+  ---
+  ID_EX.ALUsrc      = 1
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+  ALU input1 = 0x0d0d_0d0d
+  ALU input2 = 0x0000_0010
+  ---
+  EX_MEM.rt = 12
+  EX_MEM.rtVal = 0x0c0c_0c0c
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 12
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0d0d_0d1d
+
+Before extract_instructionFields(): pc+4=0x472b_cff0 instruction=0x0002_0821
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 2
+  fields.rd     = 1
+  fields.shamt  = 0
+  fields.funct  = 33
+  fields.imm16  = 0x0000_0821
+  fields.imm32  = 0x0000_0821
+  fields.address  = 0x0002_0821
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x4008_2084
+  branchAddr = 0x472b_f074
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 2
+  ID_EX.rd = 1
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0202_0202
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0202_0202
+  ---
+  EX_MEM.rt = 2
+  EX_MEM.rtVal = 0x0202_0202
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 1
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0202_0202
+
+Before extract_instructionFields(): pc+4=0x5912_16d8 instruction=0x0085_1823
+  fields.opcode = 0
+  fields.rs     = 4
+  fields.rt     = 5
+  fields.rd     = 3
+  fields.shamt  = 0
+  fields.funct  = 35
+  fields.imm16  = 0x0000_1823
+  fields.imm32  = 0x0000_1823
+  fields.address  = 0x0085_1823
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x5214_608c
+  branchAddr = 0x5912_7764
+  ---
+  ID_EX.rs = 4
+  ID_EX.rt = 5
+  ID_EX.rd = 3
+  ---
+  ID_EX.rsVal = 0x0404_0404
+  ID_EX.rtVal = 0x0505_0505
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 1
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+  ALU input1 = 0x0404_0404
+  ALU input2 = 0x0505_0505
+  ---
+  EX_MEM.rt = 5
+  EX_MEM.rtVal = 0x0505_0505
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 3
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0xfefe_feff
+
+Before extract_instructionFields(): pc+4=0x7bfa_ae30 instruction=0x24e6_1234
+  fields.opcode = 9
+  fields.rs     = 7
+  fields.rt     = 6
+  fields.rd     = 2
+  fields.shamt  = 8
+  fields.funct  = 52
+  fields.imm16  = 0x0000_1234
+  fields.imm32  = 0x0000_1234
+  fields.address  = 0x00e6_1234
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x7398_48d0
+  branchAddr = 0x7bfa_f700
+  ---
+  ID_EX.rs = 7
+  ID_EX.rt = 6
+  ID_EX.rd = 2
+  ---
+  ID_EX.rsVal = 0x0707_0707
+  ID_EX.rtVal = 0x0606_0606
+  ---
+  ID_EX.ALUsrc      = 1
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+  ALU input1 = 0x0707_0707
+  ALU input2 = 0x0000_1234
+  ---
+  EX_MEM.rt = 6
+  EX_MEM.rtVal = 0x0606_0606
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 6
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0707_193b
+
+Before extract_instructionFields(): pc+4=0x0052_62c0 instruction=0x014b_4824
+  fields.opcode = 0
+  fields.rs     = 10
+  fields.rt     = 11
+  fields.rd     = 9
+  fields.shamt  = 0
+  fields.funct  = 36
+  fields.imm16  = 0x0000_4824
+  fields.imm32  = 0x0000_4824
+  fields.address  = 0x014b_4824
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x052d_2090
+  branchAddr = 0x0053_8350
+  ---
+  ID_EX.rs = 10
+  ID_EX.rt = 11
+  ID_EX.rd = 9
+  ---
+  ID_EX.rsVal = 0x0a0a_0a0a
+  ID_EX.rtVal = 0x0b0b_0b0b
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+  ALU input1 = 0x0a0a_0a0a
+  ALU input2 = 0x0b0b_0b0b
+  ---
+  EX_MEM.rt = 11
+  EX_MEM.rtVal = 0x0b0b_0b0b
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 9
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0a0a_0a0a
+
+Before extract_instructionFields(): pc+4=0x3540_7d64 instruction=0x01ae_6025
+  fields.opcode = 0
+  fields.rs     = 13
+  fields.rt     = 14
+  fields.rd     = 12
+  fields.shamt  = 0
+  fields.funct  = 37
+  fields.imm16  = 0x0000_6025
+  fields.imm32  = 0x0000_6025
+  fields.address  = 0x01ae_6025
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x36b9_8094
+  branchAddr = 0x3541_fdf8
+  ---
+  ID_EX.rs = 13
+  ID_EX.rt = 14
+  ID_EX.rd = 12
+  ---
+  ID_EX.rsVal = 0x0d0d_0d0d
+  ID_EX.rtVal = 0x0e0e_0e0e
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 1
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+  ALU input1 = 0x0d0d_0d0d
+  ALU input2 = 0x0e0e_0e0e
+  ---
+  EX_MEM.rt = 14
+  EX_MEM.rtVal = 0x0e0e_0e0e
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 12
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0f0f_0f0f
+
+Before extract_instructionFields(): pc+4=0x5427_c568 instruction=0x320f_5678
+  fields.opcode = 12
+  fields.rs     = 16
+  fields.rt     = 15
+  fields.rd     = 10
+  fields.shamt  = 25
+  fields.funct  = 56
+  fields.imm16  = 0x0000_5678
+  fields.imm32  = 0x0000_5678
+  fields.address  = 0x020f_5678
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x583d_59e0
+  branchAddr = 0x5429_1f48
+  ---
+  ID_EX.rs = 16
+  ID_EX.rt = 15
+  ID_EX.rd = 10
+  ---
+  ID_EX.rsVal = 0x1010_1010
+  ID_EX.rtVal = 0x0f0f_0f0f
+  ---
+  ID_EX.ALUsrc      = 2
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+  ALU input1 = 0x1010_1010
+  ALU input2 = 0x0000_5678
+  ---
+  EX_MEM.rt = 15
+  EX_MEM.rtVal = 0x0f0f_0f0f
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 15
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_1010
+
+Before extract_instructionFields(): pc+4=0x6482_1308 instruction=0x3672_9abc
+  fields.opcode = 13
+  fields.rs     = 19
+  fields.rt     = 18
+  fields.rd     = 19
+  fields.shamt  = 10
+  fields.funct  = 60
+  fields.imm16  = 0x0000_9abc
+  fields.imm32  = 0xffff_9abc
+  fields.address  = 0x0272_9abc
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x69ca_6af0
+  branchAddr = 0x6480_7df8
+  ---
+  ID_EX.rs = 19
+  ID_EX.rt = 18
+  ID_EX.rd = 19
+  ---
+  ID_EX.rsVal = 0x1313_1313
+  ID_EX.rtVal = 0x1212_1212
+  ---
+  ID_EX.ALUsrc      = 2
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 1
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+  ALU input1 = 0x1313_1313
+  ALU input2 = 0x0000_9abc
+  ---
+  EX_MEM.rt = 18
+  EX_MEM.rtVal = 0x1212_1212
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 18
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x1313_9bbf
+
+Before extract_instructionFields(): pc+4=0x5525_eaa8 instruction=0x02d7_a82a
+  fields.opcode = 0
+  fields.rs     = 22
+  fields.rt     = 23
+  fields.rd     = 21
+  fields.shamt  = 0
+  fields.funct  = 42
+  fields.imm16  = 0x0000_a82a
+  fields.imm32  = 0xffff_a82a
+  fields.address  = 0x02d7_a82a
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x5b5e_a0a8
+  branchAddr = 0x5524_8b50
+  ---
+  ID_EX.rs = 22
+  ID_EX.rt = 23
+  ID_EX.rd = 21
+  ---
+  ID_EX.rsVal = 0x1616_1616
+  ID_EX.rtVal = 0x1717_1717
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 1
+  ID_EX.ALU.op      = 3
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 1
+  ID_EX.regWrite = 1
+
+  ALU input1 = 0x1616_1616
+  ALU input2 = 0x1717_1717
+  ---
+  EX_MEM.rt = 23
+  EX_MEM.rtVal = 0x1717_1717
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 21
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0001
+
+Before extract_instructionFields(): pc+4=0x332c_79d0 instruction=0x2b38_7654
+  fields.opcode = 10
+  fields.rs     = 25
+  fields.rt     = 24
+  fields.rd     = 14
+  fields.shamt  = 25
+  fields.funct  = 20
+  fields.imm16  = 0x0000_7654
+  fields.imm32  = 0x0000_7654
+  fields.address  = 0x0338_7654
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x3ce1_d950
+  branchAddr = 0x332e_5320
+  ---
+  ID_EX.rs = 25
+  ID_EX.rt = 24
+  ID_EX.rd = 14
+  ---
+  ID_EX.rsVal = 0x1919_1919
+  ID_EX.rtVal = 0x1818_1818
+  ---
+  ID_EX.ALUsrc      = 1
+  ID_EX.ALU.bNegate = 1
+  ID_EX.ALU.op      = 3
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+  ALU input1 = 0x1919_1919
+  ALU input2 = 0x0000_7654
+  ---
+  EX_MEM.rt = 24
+  EX_MEM.rtVal = 0x1818_1818
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 24
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+Before extract_instructionFields(): pc+4=0x75db_c9bc instruction=0x8c1a_0068
+  fields.opcode = 35
+  fields.rs     = 0
+  fields.rt     = 26
+  fields.rd     = 0
+  fields.shamt  = 1
+  fields.funct  = 40
+  fields.imm16  = 0x0000_0068
+  fields.imm32  = 0x0000_0068
+  fields.address  = 0x001a_0068
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x7068_01a0
+  branchAddr = 0x75db_cb5c
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 26
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x1a1a_1a1a
+  ---
+  ID_EX.ALUsrc      = 1
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 1
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 1
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0068
+  ---
+  EX_MEM.rt = 26
+  EX_MEM.rtVal = 0x1a1a_1a1a
+  ---
+  EX_MEM.memRead  = 1
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 1
+  ---
+  EX_MEM.writeReg = 26
+  EX_MEM.regWrite = 1
+  ---
+  EX_MEM.aluResult = 0x0000_0068
+
+Before extract_instructionFields(): pc+4=0x4834_87bc instruction=0xac1d_006c
+  fields.opcode = 43
+  fields.rs     = 0
+  fields.rt     = 29
+  fields.rd     = 0
+  fields.shamt  = 1
+  fields.funct  = 44
+  fields.imm16  = 0x0000_006c
+  fields.imm32  = 0x0000_006c
+  fields.address  = 0x001d_006c
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x4074_01b0
+  branchAddr = 0x4834_896c
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 29
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x1d1d_1d1d
+  ---
+  ID_EX.ALUsrc      = 1
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 1
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_006c
+  ---
+  EX_MEM.rt = 29
+  EX_MEM.rtVal = 0x1d1d_1d1d
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 1
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 29
+  EX_MEM.regWrite = 0
+  ---
+  EX_MEM.aluResult = 0x0000_006c
+
+Before extract_instructionFields(): pc+4=0x3e4c_d3f0 instruction=0x1109_8104
+  fields.opcode = 4
+  fields.rs     = 8
+  fields.rt     = 9
+  fields.rd     = 16
+  fields.shamt  = 4
+  fields.funct  = 4
+  fields.imm16  = 0x0000_8104
+  fields.imm32  = 0xffff_8104
+  fields.address  = 0x0109_8104
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x3426_0410
+  branchAddr = 0x3e4a_d800
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 0
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+Before extract_instructionFields(): pc+4=0x69aa_d6e4 instruction=0x1108_c010
+  fields.opcode = 4
+  fields.rs     = 8
+  fields.rt     = 8
+  fields.rd     = 24
+  fields.shamt  = 0
+  fields.funct  = 16
+  fields.imm16  = 0x0000_c010
+  fields.imm32  = 0xffff_c010
+  fields.address  = 0x0108_c010
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 1
+  jumpAddr   = 0x6423_0040
+  branchAddr = 0x69a9_d724
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 0
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+Before extract_instructionFields(): pc+4=0x5102_1cd4 instruction=0x154b_f000
+  fields.opcode = 5
+  fields.rs     = 10
+  fields.rt     = 11
+  fields.rd     = 30
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_f000
+  fields.imm32  = 0xffff_f000
+  fields.address  = 0x014b_f000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 1
+  jumpAddr   = 0x552f_c000
+  branchAddr = 0x5101_dcd4
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 0
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+Before extract_instructionFields(): pc+4=0x077a_6ae4 instruction=0x154a_9000
+  fields.opcode = 5
+  fields.rs     = 10
+  fields.rt     = 10
+  fields.rd     = 18
+  fields.shamt  = 0
+  fields.funct  = 0
+  fields.imm16  = 0x0000_9000
+  fields.imm32  = 0xffff_9000
+  fields.address  = 0x014a_9000
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x052a_4000
+  branchAddr = 0x0778_aae4
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 0
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+Before extract_instructionFields(): pc+4=0x411b_f69c instruction=0x0923_4567
+  fields.opcode = 2
+  fields.rs     = 9
+  fields.rt     = 3
+  fields.rd     = 8
+  fields.shamt  = 21
+  fields.funct  = 39
+  fields.imm16  = 0x0000_4567
+  fields.imm32  = 0x0000_4567
+  fields.address  = 0x0123_4567
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 2
+  jumpAddr   = 0x448d_159c
+  branchAddr = 0x411d_0c38
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 0
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+
+Before extract_instructionFields(): pc+4=0x784a_0178 instruction=0x0bff_ffff
+  fields.opcode = 2
+  fields.rs     = 31
+  fields.rt     = 31
+  fields.rd     = 31
+  fields.shamt  = 31
+  fields.funct  = 63
+  fields.imm16  = 0x0000_ffff
+  fields.imm32  = 0xffff_ffff
+  fields.address  = 0x03ff_ffff
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 2
+  jumpAddr   = 0x7fff_fffc
+  branchAddr = 0x784a_0174
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+  ALU input1 = 0x0000_0000
+  ALU input2 = 0x0000_0000
+  ---
+  EX_MEM.rt = 0
+  EX_MEM.rtVal = 0x0000_0000
+  ---
+  EX_MEM.memRead  = 0
+  EX_MEM.memWrite = 0
+  EX_MEM.memToReg = 0
+  ---
+  EX_MEM.writeReg = 0
+  EX_MEM.regWrite = 0
+  ---
+  EX_MEM.aluResult = 0x0000_0000
+

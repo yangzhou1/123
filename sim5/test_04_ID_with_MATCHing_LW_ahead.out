@@ -1,0 +1,952 @@
+Before extract_instructionFields(): pc+4=0x415e_733c instruction=0x0232_8020
+  fields.opcode = 0
+  fields.rs     = 17
+  fields.rt     = 18
+  fields.rd     = 16
+  fields.shamt  = 0
+  fields.funct  = 32
+  fields.imm16  = 0x0000_8020
+  fields.imm32  = 0xffff_8020
+  fields.address  = 0x0232_8020
+  ---
+  IDtoIF_get_stall = 1
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x48ca_0080
+  branchAddr = 0x415c_73bc
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+Before extract_instructionFields(): pc+4=0x415e_733c instruction=0x0232_8020
+  fields.opcode = 0
+  fields.rs     = 17
+  fields.rt     = 18
+  fields.rd     = 16
+  fields.shamt  = 0
+  fields.funct  = 32
+  fields.imm16  = 0x0000_8020
+  fields.imm32  = 0xffff_8020
+  fields.address  = 0x0232_8020
+  ---
+  IDtoIF_get_stall = 1
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x48ca_0080
+  branchAddr = 0x415c_73bc
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+Before extract_instructionFields(): pc+4=0x2b70_d888 instruction=0x0295_9822
+  fields.opcode = 0
+  fields.rs     = 20
+  fields.rt     = 21
+  fields.rd     = 19
+  fields.shamt  = 0
+  fields.funct  = 34
+  fields.imm16  = 0x0000_9822
+  fields.imm32  = 0xffff_9822
+  fields.address  = 0x0295_9822
+  ---
+  IDtoIF_get_stall = 1
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x2a56_6088
+  branchAddr = 0x2b6f_3910
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+Before extract_instructionFields(): pc+4=0x2b70_d888 instruction=0x0295_9822
+  fields.opcode = 0
+  fields.rs     = 20
+  fields.rt     = 21
+  fields.rd     = 19
+  fields.shamt  = 0
+  fields.funct  = 34
+  fields.imm16  = 0x0000_9822
+  fields.imm32  = 0xffff_9822
+  fields.address  = 0x0295_9822
+  ---
+  IDtoIF_get_stall = 1
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x2a56_6088
+  branchAddr = 0x2b6f_3910
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+Before extract_instructionFields(): pc+4=0x3079_ae94 instruction=0x216a_ffff
+  fields.opcode = 8
+  fields.rs     = 11
+  fields.rt     = 10
+  fields.rd     = 31
+  fields.shamt  = 31
+  fields.funct  = 63
+  fields.imm16  = 0x0000_ffff
+  fields.imm32  = 0xffff_ffff
+  fields.address  = 0x016a_ffff
+  ---
+  IDtoIF_get_stall = 1
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x35ab_fffc
+  branchAddr = 0x3079_ae90
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+Before extract_instructionFields(): pc+4=0x3079_ae94 instruction=0x216a_ffff
+  fields.opcode = 8
+  fields.rs     = 11
+  fields.rt     = 10
+  fields.rd     = 31
+  fields.shamt  = 31
+  fields.funct  = 63
+  fields.imm16  = 0x0000_ffff
+  fields.imm32  = 0xffff_ffff
+  fields.address  = 0x016a_ffff
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x35ab_fffc
+  branchAddr = 0x3079_ae90
+  ---
+  ID_EX.rs = 11
+  ID_EX.rt = 10
+  ID_EX.rd = 31
+  ---
+  ID_EX.rsVal = 0x0b0b_0b0b
+  ID_EX.rtVal = 0x0a0a_0a0a
+  ---
+  ID_EX.ALUsrc      = 1
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+Before extract_instructionFields(): pc+4=0x7ee2_ccb8 instruction=0x21ac_0010
+  fields.opcode = 8
+  fields.rs     = 13
+  fields.rt     = 12
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 16
+  fields.imm16  = 0x0000_0010
+  fields.imm32  = 0x0000_0010
+  fields.address  = 0x01ac_0010
+  ---
+  IDtoIF_get_stall = 1
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x76b0_0040
+  branchAddr = 0x7ee2_ccf8
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+Before extract_instructionFields(): pc+4=0x7ee2_ccb8 instruction=0x21ac_0010
+  fields.opcode = 8
+  fields.rs     = 13
+  fields.rt     = 12
+  fields.rd     = 0
+  fields.shamt  = 0
+  fields.funct  = 16
+  fields.imm16  = 0x0000_0010
+  fields.imm32  = 0x0000_0010
+  fields.address  = 0x01ac_0010
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x76b0_0040
+  branchAddr = 0x7ee2_ccf8
+  ---
+  ID_EX.rs = 13
+  ID_EX.rt = 12
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0d0d_0d0d
+  ID_EX.rtVal = 0x0c0c_0c0c
+  ---
+  ID_EX.ALUsrc      = 1
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+Before extract_instructionFields(): pc+4=0x45cb_6b30 instruction=0x0002_0821
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 2
+  fields.rd     = 1
+  fields.shamt  = 0
+  fields.funct  = 33
+  fields.imm16  = 0x0000_0821
+  fields.imm32  = 0x0000_0821
+  fields.address  = 0x0002_0821
+  ---
+  IDtoIF_get_stall = 1
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x4008_2084
+  branchAddr = 0x45cb_8bb4
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+Before extract_instructionFields(): pc+4=0x45cb_6b30 instruction=0x0002_0821
+  fields.opcode = 0
+  fields.rs     = 0
+  fields.rt     = 2
+  fields.rd     = 1
+  fields.shamt  = 0
+  fields.funct  = 33
+  fields.imm16  = 0x0000_0821
+  fields.imm32  = 0x0000_0821
+  fields.address  = 0x0002_0821
+  ---
+  IDtoIF_get_stall = 1
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x4008_2084
+  branchAddr = 0x45cb_8bb4
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+Before extract_instructionFields(): pc+4=0x14d3_5bbc instruction=0x0085_1823
+  fields.opcode = 0
+  fields.rs     = 4
+  fields.rt     = 5
+  fields.rd     = 3
+  fields.shamt  = 0
+  fields.funct  = 35
+  fields.imm16  = 0x0000_1823
+  fields.imm32  = 0x0000_1823
+  fields.address  = 0x0085_1823
+  ---
+  IDtoIF_get_stall = 1
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1214_608c
+  branchAddr = 0x14d3_bc48
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+Before extract_instructionFields(): pc+4=0x14d3_5bbc instruction=0x0085_1823
+  fields.opcode = 0
+  fields.rs     = 4
+  fields.rt     = 5
+  fields.rd     = 3
+  fields.shamt  = 0
+  fields.funct  = 35
+  fields.imm16  = 0x0000_1823
+  fields.imm32  = 0x0000_1823
+  fields.address  = 0x0085_1823
+  ---
+  IDtoIF_get_stall = 1
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1214_608c
+  branchAddr = 0x14d3_bc48
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+Before extract_instructionFields(): pc+4=0x1ffe_4f9c instruction=0x24e6_1234
+  fields.opcode = 9
+  fields.rs     = 7
+  fields.rt     = 6
+  fields.rd     = 2
+  fields.shamt  = 8
+  fields.funct  = 52
+  fields.imm16  = 0x0000_1234
+  fields.imm32  = 0x0000_1234
+  fields.address  = 0x00e6_1234
+  ---
+  IDtoIF_get_stall = 1
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1398_48d0
+  branchAddr = 0x1ffe_986c
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+Before extract_instructionFields(): pc+4=0x1ffe_4f9c instruction=0x24e6_1234
+  fields.opcode = 9
+  fields.rs     = 7
+  fields.rt     = 6
+  fields.rd     = 2
+  fields.shamt  = 8
+  fields.funct  = 52
+  fields.imm16  = 0x0000_1234
+  fields.imm32  = 0x0000_1234
+  fields.address  = 0x00e6_1234
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1398_48d0
+  branchAddr = 0x1ffe_986c
+  ---
+  ID_EX.rs = 7
+  ID_EX.rt = 6
+  ID_EX.rd = 2
+  ---
+  ID_EX.rsVal = 0x0707_0707
+  ID_EX.rtVal = 0x0606_0606
+  ---
+  ID_EX.ALUsrc      = 1
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+Before extract_instructionFields(): pc+4=0x0a86_347c instruction=0x014b_4824
+  fields.opcode = 0
+  fields.rs     = 10
+  fields.rt     = 11
+  fields.rd     = 9
+  fields.shamt  = 0
+  fields.funct  = 36
+  fields.imm16  = 0x0000_4824
+  fields.imm32  = 0x0000_4824
+  fields.address  = 0x014b_4824
+  ---
+  IDtoIF_get_stall = 1
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x052d_2090
+  branchAddr = 0x0a87_550c
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+Before extract_instructionFields(): pc+4=0x0a86_347c instruction=0x014b_4824
+  fields.opcode = 0
+  fields.rs     = 10
+  fields.rt     = 11
+  fields.rd     = 9
+  fields.shamt  = 0
+  fields.funct  = 36
+  fields.imm16  = 0x0000_4824
+  fields.imm32  = 0x0000_4824
+  fields.address  = 0x014b_4824
+  ---
+  IDtoIF_get_stall = 1
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x052d_2090
+  branchAddr = 0x0a87_550c
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+Before extract_instructionFields(): pc+4=0x64fc_b7f0 instruction=0x01ae_6025
+  fields.opcode = 0
+  fields.rs     = 13
+  fields.rt     = 14
+  fields.rd     = 12
+  fields.shamt  = 0
+  fields.funct  = 37
+  fields.imm16  = 0x0000_6025
+  fields.imm32  = 0x0000_6025
+  fields.address  = 0x01ae_6025
+  ---
+  IDtoIF_get_stall = 1
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x66b9_8094
+  branchAddr = 0x64fe_3884
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+Before extract_instructionFields(): pc+4=0x64fc_b7f0 instruction=0x01ae_6025
+  fields.opcode = 0
+  fields.rs     = 13
+  fields.rt     = 14
+  fields.rd     = 12
+  fields.shamt  = 0
+  fields.funct  = 37
+  fields.imm16  = 0x0000_6025
+  fields.imm32  = 0x0000_6025
+  fields.address  = 0x01ae_6025
+  ---
+  IDtoIF_get_stall = 1
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x66b9_8094
+  branchAddr = 0x64fe_3884
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+Before extract_instructionFields(): pc+4=0x1a90_4644 instruction=0x320f_5678
+  fields.opcode = 12
+  fields.rs     = 16
+  fields.rt     = 15
+  fields.rd     = 10
+  fields.shamt  = 25
+  fields.funct  = 56
+  fields.imm16  = 0x0000_5678
+  fields.imm32  = 0x0000_5678
+  fields.address  = 0x020f_5678
+  ---
+  IDtoIF_get_stall = 1
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x183d_59e0
+  branchAddr = 0x1a91_a024
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+Before extract_instructionFields(): pc+4=0x1a90_4644 instruction=0x320f_5678
+  fields.opcode = 12
+  fields.rs     = 16
+  fields.rt     = 15
+  fields.rd     = 10
+  fields.shamt  = 25
+  fields.funct  = 56
+  fields.imm16  = 0x0000_5678
+  fields.imm32  = 0x0000_5678
+  fields.address  = 0x020f_5678
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x183d_59e0
+  branchAddr = 0x1a91_a024
+  ---
+  ID_EX.rs = 16
+  ID_EX.rt = 15
+  ID_EX.rd = 10
+  ---
+  ID_EX.rsVal = 0x1010_1010
+  ID_EX.rtVal = 0x0f0f_0f0f
+  ---
+  ID_EX.ALUsrc      = 2
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+Before extract_instructionFields(): pc+4=0x7056_a9f8 instruction=0x3672_9abc
+  fields.opcode = 13
+  fields.rs     = 19
+  fields.rt     = 18
+  fields.rd     = 19
+  fields.shamt  = 10
+  fields.funct  = 60
+  fields.imm16  = 0x0000_9abc
+  fields.imm32  = 0xffff_9abc
+  fields.address  = 0x0272_9abc
+  ---
+  IDtoIF_get_stall = 1
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x79ca_6af0
+  branchAddr = 0x7055_14e8
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+Before extract_instructionFields(): pc+4=0x7056_a9f8 instruction=0x3672_9abc
+  fields.opcode = 13
+  fields.rs     = 19
+  fields.rt     = 18
+  fields.rd     = 19
+  fields.shamt  = 10
+  fields.funct  = 60
+  fields.imm16  = 0x0000_9abc
+  fields.imm32  = 0xffff_9abc
+  fields.address  = 0x0272_9abc
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x79ca_6af0
+  branchAddr = 0x7055_14e8
+  ---
+  ID_EX.rs = 19
+  ID_EX.rt = 18
+  ID_EX.rd = 19
+  ---
+  ID_EX.rsVal = 0x1313_1313
+  ID_EX.rtVal = 0x1212_1212
+  ---
+  ID_EX.ALUsrc      = 2
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 1
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+Before extract_instructionFields(): pc+4=0x3580_6c88 instruction=0x02d7_a82a
+  fields.opcode = 0
+  fields.rs     = 22
+  fields.rt     = 23
+  fields.rd     = 21
+  fields.shamt  = 0
+  fields.funct  = 42
+  fields.imm16  = 0x0000_a82a
+  fields.imm32  = 0xffff_a82a
+  fields.address  = 0x02d7_a82a
+  ---
+  IDtoIF_get_stall = 1
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x3b5e_a0a8
+  branchAddr = 0x357f_0d30
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+Before extract_instructionFields(): pc+4=0x3580_6c88 instruction=0x02d7_a82a
+  fields.opcode = 0
+  fields.rs     = 22
+  fields.rt     = 23
+  fields.rd     = 21
+  fields.shamt  = 0
+  fields.funct  = 42
+  fields.imm16  = 0x0000_a82a
+  fields.imm32  = 0xffff_a82a
+  fields.address  = 0x02d7_a82a
+  ---
+  IDtoIF_get_stall = 1
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x3b5e_a0a8
+  branchAddr = 0x357f_0d30
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+Before extract_instructionFields(): pc+4=0x16bb_cb30 instruction=0x2b38_ffff
+  fields.opcode = 10
+  fields.rs     = 25
+  fields.rt     = 24
+  fields.rd     = 31
+  fields.shamt  = 31
+  fields.funct  = 63
+  fields.imm16  = 0x0000_ffff
+  fields.imm32  = 0xffff_ffff
+  fields.address  = 0x0338_ffff
+  ---
+  IDtoIF_get_stall = 1
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1ce3_fffc
+  branchAddr = 0x16bb_cb2c
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+Before extract_instructionFields(): pc+4=0x16bb_cb30 instruction=0x2b38_ffff
+  fields.opcode = 10
+  fields.rs     = 25
+  fields.rt     = 24
+  fields.rd     = 31
+  fields.shamt  = 31
+  fields.funct  = 63
+  fields.imm16  = 0x0000_ffff
+  fields.imm32  = 0xffff_ffff
+  fields.address  = 0x0338_ffff
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x1ce3_fffc
+  branchAddr = 0x16bb_cb2c
+  ---
+  ID_EX.rs = 25
+  ID_EX.rt = 24
+  ID_EX.rd = 31
+  ---
+  ID_EX.rsVal = 0x1919_1919
+  ID_EX.rtVal = 0x1818_1818
+  ---
+  ID_EX.ALUsrc      = 1
+  ID_EX.ALU.bNegate = 1
+  ID_EX.ALU.op      = 3
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
+Before extract_instructionFields(): pc+4=0x26d1_7d2c instruction=0x8c1a_0068
+  fields.opcode = 35
+  fields.rs     = 0
+  fields.rt     = 26
+  fields.rd     = 0
+  fields.shamt  = 1
+  fields.funct  = 40
+  fields.imm16  = 0x0000_0068
+  fields.imm32  = 0x0000_0068
+  fields.address  = 0x001a_0068
+  ---
+  IDtoIF_get_stall = 1
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x2068_01a0
+  branchAddr = 0x26d1_7ecc
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 0
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x0000_0000
+  ---
+  ID_EX.ALUsrc      = 0
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 0
+  ---
+  ID_EX.memRead  = 0
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 0
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 0
+
+Before extract_instructionFields(): pc+4=0x26d1_7d2c instruction=0x8c1a_0068
+  fields.opcode = 35
+  fields.rs     = 0
+  fields.rt     = 26
+  fields.rd     = 0
+  fields.shamt  = 1
+  fields.funct  = 40
+  fields.imm16  = 0x0000_0068
+  fields.imm32  = 0x0000_0068
+  fields.address  = 0x001a_0068
+  ---
+  IDtoIF_get_stall = 0
+  IDtoIF_get_branchControl = 0
+  jumpAddr   = 0x2068_01a0
+  branchAddr = 0x26d1_7ecc
+  ---
+  ID_EX.rs = 0
+  ID_EX.rt = 26
+  ID_EX.rd = 0
+  ---
+  ID_EX.rsVal = 0x0000_0000
+  ID_EX.rtVal = 0x1a1a_1a1a
+  ---
+  ID_EX.ALUsrc      = 1
+  ID_EX.ALU.bNegate = 0
+  ID_EX.ALU.op      = 2
+  ---
+  ID_EX.memRead  = 1
+  ID_EX.memWrite = 0
+  ID_EX.memToReg = 1
+  ---
+  ID_EX.regDst   = 0
+  ID_EX.regWrite = 1
+
